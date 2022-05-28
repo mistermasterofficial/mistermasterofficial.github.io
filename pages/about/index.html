@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<meta name="viewport" content="width=device-width, user-scalable=yes">
+		<meta name="description" content="Проекты, галерея, статьи и шестиугольники.">
+		<meta name="keywords" content="Мистер Мастер, Mister Master, Mr Master">
+		<link href="/styles/styles.css" rel="stylesheet">
+		<link href="/styles/background.css" rel="stylesheet">
+		<link rel="icon" href="/images/favicon.ico"/>
+		<title>Мистер Мастер | Об авторе</title>
+		<script src="/scripts/default.js"></script>
+	</head>
+	<body>
+		<div id="loading-screen">
+			<img src="/images/svg/loading_logo2.svg" style="height: 25em;">
+			<img id="loading-img" src="/images/svg/loading_logo1.svg" style="height: 25em;">
+		</div>
+		<div id="side-panel">
+			<a href="/" style="width: 100%; margin: 0; padding: 0; text-align: center;">
+				<img src="/images/svg/logo.svg">
+			</a>
+			<ul>
+				<li><a href="/pages/news/">Новости</a></li>
+				<li><a href="/pages/gallery/">Галерея</a></li>
+				<li><a href="/pages/projects/">Проекты</a></li>
+				<li><a href="/pages/others/">Прочее</a></li>
+				<li><a href="/pages/about/" id="current-page">Об авторе</a></li>
+				<li>
+					<a href="https://t.me/MisterMasterOfficial" style="display: flex; flex-direction: column;" target="_blank">
+						<img src="/images/svg/telegram_logo.svg" width="50%" style="margin-left: auto; margin-right: auto;">
+						Telegram
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="top-panel">
+			<div id="top-panel-top">
+				<a href="/">
+					<img src="/images/svg/logo.svg" height="100%">
+				</a>
+				<button type="button" style="padding: auto;" onclick="toggle_visibility_id('top-panel-dropdown');">
+					<img src="/images/svg/menu-burger.svg" height="80%">
+				</button>
+			</div>
+			<div id="top-panel-dropdown">
+				<ul>
+					<li><a href="/pages/news/">Новости</a></li>
+					<li><a href="/pages/gallery/">Галерея</a></li>
+					<li><a href="/pages/projects/">Проекты</a></li>
+					<li><a href="/pages/others/">Прочее</a></li>
+					<li><a href="/pages/about/" id="current-page">Об авторе</a></li>
+					<li>
+						<a href="https://t.me/MisterMasterOfficial" style="display: inline-flex; justify-content: center; align-items: center;" target="_blank">
+							<img src="/images/svg/telegram_logo.svg" width="10%">
+							Telegram
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="main-page">
+			<div class="background-img5 main-caption">
+				<h1>Об авторе</h1>
+			</div>
+			
+			<div style="background-image: url(/images/svg/separator.svg); width: 100%; height: 5em;">
+				<br>
+			</div>			
+			<div class="center-text bold">
+				<p>
+					Данный сайт является авторским проектом 
+					ученика города Новосибирск, Лицея №136, 8с класса Михаила Сизова.
+				</p>
+				<p>
+					Я пишу программы на языке Python, программирую под Arduino на языке C++, 
+					делаю фронтенды для сайтов и веб-дизайн в целом.
+				</p>
+				<p>
+					Я рад, что вы посетили мой сайт, и надеюсь он вам понравился, 
+					а если нет, то вы можете предложить свои идеи в моем Telegram канале. Не факт, что отвечу, но всё же :)
+				</p>
+			</div>
+			<div style="background-image: url(/images/svg/separator.svg); width: 100%; height: 5em;">
+				<br>
+			</div>
+
+			<img src="/images/about/mrmaster_logo_full.png" width="100%">
+
+			<div style="background-image: url(/images/svg/separator.svg); width: 100%; height: 5em;">
+				<br>
+			</div>			
+			<div class="center-text bold">
+				<p>
+					Также я хочу поблагодарить компанию <a href="https://robotix-com.web.app/">Robotix</a>,
+					соавторов некоторых моих проектов за небольшую помощь при
+					создании данного сайта.
+				</p>
+			</div>
+			<div style="background-image: url(/images/svg/separator.svg); width: 100%; height: 5em;">
+				<br>
+			</div>
+
+			<img src="/images/about/robotix_logo_full.png" width="100%">
+			
+			<div id="copyright">
+				<h2>Fonts: Caviar Dreams.<br>© Mister Master 2022</h2>
+			</div>
+
+			<button id="back-to-top-btn" onclick="topFunction();">
+				<img src="/images/svg/vector-to-top.svg" height="60px">
+			</button>
+			<script src="/scripts/back-to-top.js"></script>
+		</div>
+	</body>
+</html>

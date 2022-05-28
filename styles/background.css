@@ -1,0 +1,36 @@
+.background-img1
+{
+	background-image: url("/images/backgrounds/1.png");
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
+.background-img2
+{
+	background-image: url("/images/backgrounds/2.png");
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
+.background-img3
+{
+	background-image: url("/images/backgrounds/3.png");
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
+.background-img4
+{
+	background-image: url("/images/backgrounds/4.png");
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
+.background-img5
+{
+	background-image: url("/images/backgrounds/5.png");
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
+.background-img6
+{
+	background-image: url("/images/backgrounds/6.png");
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
