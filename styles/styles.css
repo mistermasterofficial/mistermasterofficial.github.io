@@ -276,19 +276,19 @@ a:active
 }
 .callout-selection a:link
 {
-	color: var(--light-25-cyan-color);
+	color: var(--25-cyan-color);
 }
 .callout-selection a:visited
 {
-	color: var(--light-0-cyan-color);
+	color: var(--50-cyan-color);
 }
 .callout-selection a:hover
 {
-	color: var(--light-100-cyan-color);
+	color: var(--75-cyan-color);
 }
 .callout-selection a:active
 {
-	color: var(--light-0-cyan-color);
+	color: var(--0-cyan-color);
 }
 
 .center-text
