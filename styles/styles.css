@@ -230,11 +230,6 @@ a:active
 	background-color: var(--0-cyan-color);
 }
 
-#current-page
-{
-	background-color: var(--0-cyan-color);
-}
-
 /*--	Main page	--*/
 
 #main-page
