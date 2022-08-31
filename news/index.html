@@ -8,18 +8,39 @@
 		<link href="/styles/styles.css" rel="stylesheet">
 		<link href="/styles/background.css" rel="stylesheet">
 		<link rel="icon" href="/images/favicon.ico"/>
-		<title>Мистер Мастер | Прочее</title>
+		<title>Мистер Мастер | Новости</title>
+		<script src="/scripts/news.js"></script>
 	</head>
 	<body>
 		<div id="loading-screen"></div>
 		<div id="side-panel"></div>
 		<div id="top-panel"></div>
 		<script src="/scripts/default.js"></script>
+		
 		<div id="main-page">
-			<div class="background-img4 main-caption">
-				<h1>Прочее</h1>
+			<div class="background-img1 main-caption">
+				<h1>Новости</h1>
 			</div>
-			<h1 class="center-text">Здесь пока ничего нет.</h1>
+
+			<br>
+
+			<div class="center-text" id="start-site" style="display: none;">
+				<img src="/images/news/start-site.png" width="90%">
+				<h1>Запуск сайта</h1>
+				<h3>1.07.22</h3>
+				<h2>Теперь мы доступны в интернете!</h2>
+			</div>
+
+			<div class="article-boxes">
+				<article>
+					<img src="/images/news/start-site.png" width="100%">
+					<h1>Запуск сайта</h1>
+					<h3>1.07.22</h3>
+					<h2>Теперь мы доступны в интернете!</h2>
+					<a onclick="hide_all_news(); setVisible('#start-site', true);" href="#start-site"><h2>Подробнее</h2></a>
+				</article>
+			</div>
+
 			<div id="copyright">
 				<h2>Fonts: Caviar Dreams.<br>© Mister Master 2022</h2>
 			</div>
