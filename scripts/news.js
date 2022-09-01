@@ -7,3 +7,8 @@ function hide_all_news()
 {
     setVisible('#start-site', false);
 }
+
+function visibleOnly(selector)
+{
+    hide_all_news(); setVisible(selector, true);
+}

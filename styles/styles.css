@@ -306,6 +306,11 @@ a:active
 	margin: 0;
 }
 
+.news-picture
+{
+	width: 60%;
+}
+
 .selection-ul
 {
 	padding: 0.5%;
@@ -416,6 +421,11 @@ a:active
     {
     	display: block;
     }
+
+	.news-picture
+	{
+		width: 75%;
+	}
 }
 
 @media screen and (max-width:700px)
@@ -448,5 +458,10 @@ a:active
 	{
 		float: none;
 		width: 100%;
+	}
+
+	.news-picture
+	{
+		width: 90%;
 	}
 }
