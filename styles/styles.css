@@ -278,7 +278,7 @@ a:active
 }
 .callout-selection a:hover
 {
-	color: var(--75-cyan-color);
+	color: var(--25-cyan-color);
 }
 .callout-selection a:active
 {
