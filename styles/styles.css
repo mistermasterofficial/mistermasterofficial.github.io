@@ -329,14 +329,8 @@ a:active
 	justify-content: space-between;
 	width: 100%;
 }
-.right-float
+.float-child
 {
-	float: right;
-	width: 48%;
-}
-.left-float
-{
-	float: left;
 	width: 48%;
 }
 
