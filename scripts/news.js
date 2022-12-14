@@ -7,7 +7,7 @@ function hide_all_news(selectors)
 {
     for (let i = 0; i < selectors.length; i++)
     {
-        setVisible(selectors[i], false);
+        setVisible(selectors[i].id, false);
     }
 }
 

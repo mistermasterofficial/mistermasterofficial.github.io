@@ -26,14 +26,14 @@
 			<h1 class="center-text" id="chosen-news" style="background-color: var(--light-100-cyan-color);">Выбранная новость</h1>
 			<br>
 
-			<div class="center-text" id="start-site" style="display: none;">
+			<div class="news center-text" id="start-site" style="display: none;">
 				<img src="/images/news/start-site.png" class="news-picture">
 				<h1>Запуск сайта</h1>
 				<h3>1.07.22</h3>
 				<h2>Теперь мы доступны в интернете!</h2>
 			</div>
 
-			<div class="center-text" id="test" style="display: none;">
+			<div class="news center-text" id="test" style="display: none;">
 				<img src="/images/news/start-site.png" class="news-picture">
 				<h1>test</h1>
 				<h3>1.07.22</h3>
@@ -50,14 +50,14 @@
 					<h1>Запуск сайта</h1>
 					<h3>1.07.22</h3>
 					<h2>Теперь мы доступны в интернете!</h2>
-					<a onclick="visibleOnly(['#start-site', '#test'], '#start-site');" href="#chosen-news"><h2>Подробнее</h2></a>
+					<a onclick="visibleOnly(document.getElementsByClassName('news'), '#start-site');" href="#chosen-news"><h2>Подробнее</h2></a>
 				</article>
 				<article>
 					<img src="/images/news/start-site.png" width="100%">
 					<h1>test</h1>
 					<h3>1.07.22</h3>
 					<h2>Теперь мы доступны в интернете!</h2>
-					<a onclick="visibleOnly(['#start-site', '#test'], '#test');" href="#chosen-news"><h2>Подробнее</h2></a>
+					<a onclick="visibleOnly(document.getElementsByClassName('news'), '#test');" href="#chosen-news"><h2>Подробнее</h2></a>
 				</article>
 			</div>
 
