@@ -1,96 +1,57 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset=utf-8>
-		<meta name="viewport" content="width=device-width, user-scalable=yes">
-		<meta name="theme-color" content="#3B6182">
-		<meta name="description" content="Проекты, галерея, статьи и шестиугольники.">
-		<meta name="keywords" content="Мистер Мастер, Mister Master, Mr Master">
-		<link href="/styles/styles.css" rel="stylesheet">
-		<link href="/styles/background.css" rel="stylesheet">
-		<link rel="icon" href="/images/favicon.ico"/>
-		<title>Мистер Мастер | Главное</title>
-	</head>
-	<body>
-		<div id="loading-screen"></div>
-		<div id="side-panel"></div>
-		<div id="top-panel"></div>
-		<script src="/scripts/default.js"></script>
-		
-		<div id="main-page">
-			<div class="background-img3 main-caption">
-				<h1>Добро пожаловать!</h1>
-			</div>
-			<h1 class="center-text">На этой странице вы можете ознакомится с некоторыми разделами этого сайта.</h1>
-			<div class="background-img1 main-caption">
-				<h1>Новости</h1>
-			</div>
-			<div class="hologram-article-boxes">
-				<article>
-					<img src="/images/news/start-site.png" width="100%">
-					<h1>Запуск сайта</h1>
-					<h3>1.07.22</h3>
-					<h2>Теперь мы доступны в интернете!</h2>
-					<a href="/news/">
-						<h2>Подробнее</h2>
-					</a>
-				</article>
-			</div>
-			<div class="background-img6 main-caption">
-				<h1>Галерея</h1>
-			</div>
-			<div class="hologram-article-boxes">
-				<article>
-					<a href="/gallery/"><img src="/images/gallery/1.png" width="100%"></a>	
-				</article>
-				<article>
-					<a href="/gallery/"><img src="/images/gallery/2.png" width="100%"></a>
-				</article>
-				<article>
-					<a href="/gallery/"><img src="/images/gallery/3.png" width="100%"></a>
-				</article>
-			</div>
-			<div class="background-img2 main-caption">
-				<h1>Проекты</h1>
-			</div>
-			<div class="hologram-article-boxes">
-				<article>
-					<img src="/Electron-Cells-Sandbox/images/logo.png" width="50%">
-					<h1>Electron Cells Sandbox</h1>
-					<div width="100%" style="padding-left: 2%;background-color: green; color: white;">
-						<h2>Стабильно</h2>
-					</div>
-					<a href="/Electron-Cells-Sandbox/">
-						<h1>Подробнее</h1>
-					</a>
-				</article>
-				<article>
-					<img src="/PyModernRay/images/logo.png" width="50%">
-					<h1>PyModernRay</h1>
-					<div width="100%" style="padding-left: 2%;background-color: darkorange; color: white;">
-						<h2>Альфа-версия (в разработке)</h2>
-					</div>
-					<a href="/PyModernRay/">
-						<h1>Подробнее</h1>
-					</a>
-				</article>
-			</div>
-			<div class="background-img4 main-caption">
-				<h1>Прочее</h1>
-			</div>
-			<div class="hologram-article-boxes">
-				<article>
-					<h1>Здесь пока ничего нет</h1>
-				</article>
-			</div>
-			<div id="copyright">
-				<h2>Fonts: Caviar Dreams.<br>© Mister Master 2022</h2>
-			</div>
-
-			<button id="back-to-top-btn" onclick="topFunction();">
-				<img src="/images/svg/vector-to-top.svg" height="60px">
-			</button>
-			<script src="/scripts/back-to-top.js"></script>
-		</div>
-	</body>
+<head>
+    <meta charset="utf-8">
+    <title>Мистер Мастер | Главное</title>
+</head>
+<body>
+    <div id="loading-screen"></div>
+    <script src="/scripts/cookie.js"></script>
+    <script src="/scripts/loadtheme.js"></script>
+    <script src="/scripts/loading.js"></script>
+    <nav></nav>
+    <main>
+        <header class="bg-img3 anim-scale">
+            <h1>Добро пожаловать!</h1>
+        </header>
+        <h1>На этой странице вы можете ознакомится с некоторыми разделами этого сайта.</h1>
+        <header class="bg-img2 anim-move-2">
+            <h1>Проекты</h1>
+        </header>
+        <div class="article-box">
+            <article>
+                <img src="/Electron-Cells-Sandbox/images/logo.png" width="100%">
+                <h1>Electron Cells Sandbox</h1>
+                <a href="/Electron-Cells-Sandbox/">
+                    <h2>Подробнее</h2>
+                </a>
+            </article>
+        </div>
+        <header class="bg-img5 anim-move-1">
+            <h1>Галерея</h1>
+        </header>
+        <div class="article-box">
+            <article>
+                <a href="/gallery/">
+                    <img src="/images/gallery/1.png" width="100%">
+                </a>
+            </article>
+            <article>
+                <a href="/gallery/">
+                    <img src="/images/gallery/2.png" width="100%">
+                </a>
+            </article>
+            <article>
+                <a href="/gallery/">
+                    <img src="/images/gallery/3.png" width="100%">
+                </a>
+            </article>
+        </div>
+        <header class="bg-img1 anim-scale">
+            <h1>Об авторе</h1><img src="/images/about/mrmaster_logo_full.png" width="50%">
+        </header>
+    </main>
+    <footer></footer>
+    <script src="/scripts/loadpage.js"></script>
+</body>
 </html>

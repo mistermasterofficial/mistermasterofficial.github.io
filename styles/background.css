@@ -1,36 +1,87 @@
-.background-img1
+@keyframes scale-up-and-back
 {
-	background-image: url("/images/backgrounds/1.png");
-	background-size: 1920px 1080px;
-	background-attachment: fixed;
+	0%
+	{
+		background-size: 5em;
+	}
+	20%
+	{
+		background-size: 20em;
+	}
+	100%
+	{
+		background-size: 5em;
+	}
+
 }
-.background-img2
+@keyframes move-x-2-right
 {
-	background-image: url("/images/backgrounds/2.png");
-	background-size: 1920px 1080px;
-	background-attachment: fixed;
+	0%
+	{
+		background-position-x: 0em;
+	}
+	100%
+	{
+		background-position-x: 15em;
+	}
 }
-.background-img3
+@keyframes move-x-2-left
 {
-	background-image: url("/images/backgrounds/3.png");
-	background-size: 1920px 1080px;
-	background-attachment: fixed;
+	0%
+	{
+		background-position-x: 0em;
+	}
+	100%
+	{
+		background-position-x: -15em;
+	}
 }
-.background-img4
+
+.anim-scale
 {
-	background-image: url("/images/backgrounds/4.png");
-	background-size: 1920px 1080px;
-	background-attachment: fixed;
+	animation: scale-up-and-back 10s cubic-bezier(0.77, 0, 0.175, 1) infinite;
 }
-.background-img5
+.anim-move-1
 {
-	background-image: url("/images/backgrounds/5.png");
-	background-size: 1920px 1080px;
-	background-attachment: fixed;
+	animation: move-x-2-right 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
 }
-.background-img6
+.anim-move-2
 {
-	background-image: url("/images/backgrounds/6.png");
-	background-size: 1920px 1080px;
+	animation: move-x-2-left 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+
+.bg-img1
+{
+	background-image: url("/images/backgrounds/1.svg");
 	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
+.bg-img2
+{
+	background-image: url("/images/backgrounds/2.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
+.bg-img3
+{
+	background-image: url("/images/backgrounds/3.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
+.bg-img4
+{
+	background-image: url("/images/backgrounds/4.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
+.bg-img5
+{
+	background-image: url("/images/backgrounds/5.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
 }
