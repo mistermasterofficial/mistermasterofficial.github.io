@@ -53,6 +53,11 @@ p
 {
 	font-size: 2em;
 }
+a
+{
+    padding-left: 1em;
+    padding-right: 1em;
+}
 button
 {
 	background-color: transparent;
