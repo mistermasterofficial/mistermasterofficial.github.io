@@ -92,3 +92,10 @@
 	background-position: center;
 	background-size: 15em;
 }
+.bg-img7
+{
+	background-image: url("/images/backgrounds/6.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
