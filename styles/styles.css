@@ -201,6 +201,8 @@ header *
     width: 30em;
     margin: 1em;
     padding: 0;
+    display: flex;
+    align-content: space-around;
 }
 .article-box article *
 {
