@@ -19,6 +19,7 @@ document.getElementsByTagName("nav")[0].innerHTML = `
 </a>
 `;
 document.getElementsByTagName("footer")[0].innerHTML = `
+<div>
 <h2>
 <a href="https://t.me/MisterMasterOfficial">Telegram</a>
 </h2>
@@ -31,6 +32,7 @@ document.getElementsByTagName("footer")[0].innerHTML = `
 <h2>
 <a href="https://ru.pinterest.com/misteriomaster00/">Pinterest</a>
 </h2>
+</div>
 <h2>
 Fonts: Caviar Dreams.<br>© Mister Master ${new Date().getFullYear()}
 </h2>
