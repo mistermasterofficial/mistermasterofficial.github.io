@@ -1,12 +1,3 @@
-document.getElementsByTagName("head")[0].innerHTML = document.getElementsByTagName("head")[0].innerHTML + `
-<meta name="viewport" content="width=device-width, user-scalable=no">
-<meta name="theme-color" content="#5790C1">
-<meta name="description" content="Проекты, галерея и шестиугольники.">
-<meta name="keywords" content="Мистер Мастер, Mister Master, Mr Master">
-<link href="/styles/background.css" rel="stylesheet">
-<link rel="icon" href="/images/favicon.ico"/>
-<meta http-equiv="content-language" content="ru">
-`;
 document.getElementsByTagName("nav")[0].innerHTML = `
 <button onclick="toggle_theme();" title="Переключить тему">
     <img src="/images/svg/toggle_theme.svg" height="100%">
