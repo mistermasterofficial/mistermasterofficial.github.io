@@ -18,9 +18,6 @@ document.getElementsByTagName("footer")[0].innerHTML = `
 <a href="https://mistermastergames.itch.io/">itch.io</a>
 </h2>
 <h2>
-<a href="https://www.behance.net/misteriomaster">Behance</a>
-</h2>
-<h2>
 <a href="https://ru.pinterest.com/misteriomaster00/">Pinterest</a>
 </h2>
 </div>
