@@ -1,0 +1,101 @@
+@keyframes scale-up-and-back
+{
+	0%
+	{
+		background-size: 5em;
+	}
+	20%
+	{
+		background-size: 20em;
+	}
+	100%
+	{
+		background-size: 5em;
+	}
+
+}
+@keyframes move-x-2-right
+{
+	0%
+	{
+		background-position-x: 0em;
+	}
+	100%
+	{
+		background-position-x: 15em;
+	}
+}
+@keyframes move-x-2-left
+{
+	0%
+	{
+		background-position-x: 0em;
+	}
+	100%
+	{
+		background-position-x: -15em;
+	}
+}
+
+.anim-scale
+{
+	animation: scale-up-and-back 10s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+.anim-move-1
+{
+	animation: move-x-2-right 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+.anim-move-2
+{
+	animation: move-x-2-left 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+
+.bg-img1
+{
+	background-image: url("/images/backgrounds/1.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
+.bg-img2
+{
+	background-image: url("/images/backgrounds/2.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
+.bg-img3
+{
+	background-image: url("/images/backgrounds/3.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
+.bg-img4
+{
+	background-image: url("/images/backgrounds/4.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
+.bg-img5
+{
+	background-image: url("/images/backgrounds/5.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
+.bg-img6
+{
+	background-image: url("/images/backgrounds/6.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
+.bg-img7
+{
+	background-image: url("/images/backgrounds/6.svg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 15em;
+}
